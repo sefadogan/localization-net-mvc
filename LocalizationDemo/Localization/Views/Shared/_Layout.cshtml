@@ -17,10 +17,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink(Localization.Resource.Anasayfa, "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })</li>
+                    <li>@Html.ActionLink(Localization.Resource.Hakkimizda, "About", "Home", new { area = "" }, new { @class = "navbar-brand" })</li>
+                    <li>@Html.ActionLink(Localization.Resource.Iletisim, "Contact", "Home", new { area = "" }, new { @class = "navbar-brand" })</li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/Language/ChangeLanguage?language=tr"><img src="~/images/flags/tr.png" /></a>
+                    </li>
+                    <li>
+                        <a href="/Language/ChangeLanguage?language=en"><img src="~/images/flags/en.png" /></a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -30,7 +40,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - @MultiLanguage.Resource.Footer</p>
         </footer>
     </div>
 

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Localization.Resources {
+namespace Localization {
     using System;
     
     
@@ -22,7 +22,7 @@ namespace Localization.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resource {
+    public class Resource {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Localization.Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Localization.Resources.Resource", typeof(Resource).Assembly);
@@ -51,7 +51,7 @@ namespace Localization.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Localization.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Anasayfa.
         /// </summary>
-        internal static string Anasayfa {
+        public static string Anasayfa {
             get {
                 return ResourceManager.GetString("Anasayfa", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace Localization.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Çoklu Dil Desteği Deneme.
         /// </summary>
-        internal static string Footer {
+        public static string Footer {
             get {
                 return ResourceManager.GetString("Footer", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace Localization.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Hakkımızda.
         /// </summary>
-        internal static string Hakkimizda {
+        public static string Hakkimizda {
             get {
                 return ResourceManager.GetString("Hakkimizda", resourceCulture);
             }
@@ -90,7 +90,7 @@ namespace Localization.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Hizmetlerimiz.
         /// </summary>
-        internal static string Hizmetlerimiz {
+        public static string Hizmetlerimiz {
             get {
                 return ResourceManager.GetString("Hizmetlerimiz", resourceCulture);
             }
@@ -99,7 +99,7 @@ namespace Localization.Resources {
         /// <summary>
         ///   Looks up a localized string similar to İletişim.
         /// </summary>
-        internal static string Iletisim {
+        public static string Iletisim {
             get {
                 return ResourceManager.GetString("Iletisim", resourceCulture);
             }
